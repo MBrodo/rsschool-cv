@@ -21,3 +21,35 @@ I am a young IT specialist, looking for my first deployment in the workplace. I 
 - Friendly.
 - Flexible.
 - Helpful.
+
+### Code examples
+Task from Codewars
+``` js
+// Return an array
+function fizzbuzz(n)
+{
+  let arr = [];
+  for (let i = n; i > 0; i--) {
+    i%3 === 0 && i%5 === 0 ? arr.unshift('FizzBuzz') :
+    i%3 === 0 ? arr.unshift('Fizz') :
+    i%5 === 0 ? arr.unshift('Buzz') : arr.unshift(i);
+  }
+  return arr;
+}
+```
+
+### Work experience
+
+###  Professional Qualifications
+- HTML/CSS
+- Javascript
+- C
+- Git
+- SQL
+- MySQL
+In 2017 I finished Belhard's courses "Basics of C"
+Currently on RSS course "JavaScript/Front-end"
+
+### Languages
+Russian: Native speaker <br>
+English: B2
