@@ -1,1 +1,1 @@
-https://mbrodo.github.io/rsschool-cv/cv
+https://mbrodo.github.io/rsschool-cv/
