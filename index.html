@@ -10,16 +10,31 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul class="navigation container">
+                <li><a href="#prof1" class="link">Professional Profile</a></li>
+                <li><a href="#skills" class="link">Key Skills</a></li>
+                <li><a href="#code" class="link">Code examples</a></li>
+                <li><a href="#quali" class="link">Professional Qualifications</a></li>
+                <li><a href="#lang" class="link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="container">
-        <img class="imgprofile" src="img/Profile_photo.jpg" alt="photo">
+        <figure>
+            <img class="imgprofile" src="img/Profile_photo.jpg" alt="photo">
+        </figure>
         <div class="myname">
             <h2>Yahor Vasileuski</h2>
             <div class="persinf">
                 <p>Male, 20 years old, born on 14 November 2000</p>
             </div>
             <div class="persinf">
-                <p>Email: nebrodo@gmail.com </p>
-                <p> Vk: /officialbrodo</p>
+                <ul class="contacts">
+                    <li>Email: nebrodo@gmail.com</li>
+                    <li>Vk: /officialbrodo</li>
+                </ul>
             </div>
             <div class="persinf">
                 <p>Reside in: Minsk </p>
@@ -29,7 +44,7 @@
         </div>
     </section>
 
-    <section class="profile">
+    <section class="profile" id="prof1">
         <h2>Professional Profile</h2>
         <p>I am a young IT specialist, looking for my first deployment in the workplace.
             I have studied and keep studying for several years, I carried out many
@@ -39,7 +54,7 @@
             I have a particular interest in Web development.</p>
     </section>
 
-    <section>
+    <section id="skills">
         <h2>Key Skills</h2>
         <ul>
             <li>Knowledgable</li>
@@ -54,9 +69,9 @@
         </ul>
     </section>
 
-    <section>
+    <section id="code">
         <h2>Code examples</h2>
-        <p>Task from Codewars</p>
+        <h3>Task from Codewars</h3>
         <div class="codeblock">
             <pre><code>
 function fizzbuzz(n)
@@ -73,11 +88,7 @@ function fizzbuzz(n)
         </div>
     </section>
 
-    <section>
-        <h2>Work experience</h2>
-    </section>
-
-    <section>
+    <section id="quali">
         <h2>Professional Qualifications</h2>
         <ul>
             <li>HTML/CSS</li>
@@ -91,12 +102,15 @@ function fizzbuzz(n)
             "JavaScript/Front-end"</p>
     </section>
 
-    <section>
+    <section id="lang">
         <h2>Languages</h2>
         <p>Russian: Native speaker</p>
         <p>English: B2</p>
     </section>
 
+    <footer>
+        <p>Created by Brodo, 2021 </p>
+    </footer>
 </body>
 
 </html>
